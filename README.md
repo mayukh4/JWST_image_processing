@@ -1,12 +1,8 @@
-# JWST_image_processing
-This jupyter notebook demonstrates how to use RAW JWST data and turn them into beautiful images using Python
-
-
 # JWST Image Processing
 
 A Python toolkit for processing raw James Webb Space Telescope (JWST) data into beautiful, colorized composite images.
 
-![Cosmic Cliffs Banner](https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ)
+![my_jwst_image](https://github.com/user-attachments/assets/38135e6a-b3a8-45e5-85f0-fe6a35f7d37a)
 
 ## Overview
 
@@ -222,6 +218,7 @@ Layers are combined using screen blending, which mimics how light combines:
 # Screen blend formula
 blended = 255 - (((255 - image1) * (255 - image2)) // 255)
 ```
+![jwst_colorized_blending](https://github.com/user-attachments/assets/0995c631-7f9e-4afd-8a6c-926df7ef21ff)
 
 ## Contributing
 
